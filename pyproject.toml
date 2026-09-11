@@ -1,0 +1,21 @@
+[project]
+name = "fastapi-crashcourse-chaiaurcode"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Sarthak-Shah", email = "er.sarthak@outlook.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.141.1",
+    "python-jose>=3.5.0",
+    "uvicorn>=0.52.1",
+]
+
+[project.scripts]
+fastapi-crashcourse-chaiaurcode = "fastapi_crashcourse_chaiaurcode:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
